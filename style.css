@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  border: 20px solid #bdc3c7;
+  width: 80%;
+  margin: auto;
+}
+h2 {
+  letter-spacing: 3.2px;
+  font-weight: bold;
+  font-size: 48px;
+  color: #3d3d3d;
+}
+#date {
+  text-align: right;
+  color: #3498db;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+p:not(#date, #last) {
+  border-bottom: 5px solid #bdc3c7;
+}
+div {
+  border-bottom: 10px solid #bdc3c7;
+  padding-right: 10px;
+}
+div p:nth-child(odd) {
+  text-align: right;
+}
+div p:nth-child(even) {
+  text-align: center;
+}
+#firstArt {
+  border-bottom: 0;
+}
+#firstArt #date {
+  text-align: right;
+}
+#firstArt p:nth-of-type(2) {
+  text-align: right;
+}
