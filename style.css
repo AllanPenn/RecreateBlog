@@ -2,6 +2,7 @@
 body {
   font-family: 'Lato', sans-serif;
   border: 20px solid #bdc3c7;
+  border-radius: 25px;
   width: 80%;
   margin: auto;
 }
@@ -10,6 +11,10 @@ h2 {
   font-weight: bold;
   font-size: 48px;
   color: #3d3d3d;
+}
+h2:hover {
+  text-align: center;
+  letter-spacing: 1.7vmax;
 }
 #date {
   text-align: right;
